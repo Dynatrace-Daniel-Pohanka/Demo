@@ -1,6 +1,408 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="1" failures="0" hostname="WIN-F99Q070NC6N" id="0" name="TestJunit" package="" skipped="0" tests="1" time="0.0" timestamp="2016-03-19T23:31:55">
+  <testsuite errors="1" failures="0" hostname="WIN-F99Q070NC6N" id="0" name="TestJunit" package="DemoPrinter" skipped="0" tests="1" time="0.0" timestamp="2016-03-20T19:29:01">
+      <properties>
+          <property name="env.bamboo_planRepository_1_repositoryUrl" value="https://github.com/Dynatrace-Daniel-Pohanka/Demo.git" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="env.bamboo_repository_git_branch" value="master" />
+
+          <property name="env.PROMPT" value="$P$G" />
+
+          <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_74\jre" />
+
+          <property name="env.bamboo_repository_previous_revision_number" value="855408b20a9d8c0e40f2323b50c5ae5e379e352d" />
+
+          <property name="env.bamboo_repository_720898_git_branch" value="master" />
+
+          <property name="env.bamboo_repository_name" value="Demo" />
+
+          <property name="env.bamboo_buildNumber" value="7" />
+
+          <property name="env._PRG_DIR" value="C:\Program Files\Bamboo\bin\" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_74\jre\lib\endorsed" />
+
+          <property name="env.USERNAME" value="Daniel Pohanka" />
+
+          <property name="debuglevel" value="source,lines,vars" />
+
+          <property name="sun.os.patch.level" value="Service Pack 1" />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="env.COMPUTERNAME" value="WIN-F99Q070NC6N" />
+
+          <property name="env.=C:" value="C:\Users\Daniel Pohanka\bamboo-home\xml-data\build-dir\DYN-DYN-JOB1" />
+
+          <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+
+          <property name="env.windows_tracing_flags" value="3" />
+
+          <property name="java.version" value="1.8.0_74" />
+
+          <property name="env.bamboo_buildPlanName" value="DynaDemo - DynaTrace - Default Job" />
+
+          <property name="env.bamboo_planRepository_branch" value="master" />
+
+          <property name="env.bamboo_capability_system_builder_ant_Ant" value="C:\Program Files (x86)\apache-ant-1.9.6" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="env.USERPROFILE" value="C:\Users\Daniel Pohanka" />
+
+          <property name="ant.project.invoked-targets" value="clean,init,TestJunit,junitreport" />
+
+          <property name="env.bamboo_planRepository_previousRevision" value="855408b20a9d8c0e40f2323b50c5ae5e379e352d" />
+
+          <property name="env.SystemRoot" value="C:\Windows" />
+
+          <property name="env.JAVA_OPTS" value=" -Xms256m -Xmx768m -Djava.awt.headless=true -Datlassian.standalone=BAMBOO   -Djava.util.logging.config.file=&quot;C:\Program Files\Bamboo\conf\logging.properties&quot; -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager" />
+
+          <property name="user.name" value="Daniel Pohanka" />
+
+          <property name="env.bamboo_agentWorkingDirectory" value="C:\Users\Daniel Pohanka\bamboo-home\xml-data\build-dir" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="env.LOCALAPPDATA" value="C:\Users\Daniel Pohanka\AppData\Local" />
+
+          <property name="env.CURRENT_DIR" value="C:\Program Files\Bamboo\bin" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="user.script" value="" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 61 Stepping 4, GenuineIntel" />
+
+          <property name="env.bamboo_planKey" value="DYN-DYN" />
+
+          <property name="env._JAVACMD" value="C:\Program Files\Java\jdk1.8.0_74\bin\java.exe" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="ant.project.default-target" value="build" />
+
+          <property name="env.TITLE" value="Tomcat" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner DemoPrinter.TestJunit skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Daniel Pohanka\Desktop\Demo\junit\TEST-DemoPrinter.TestJunit.xml crashfile=C:\Users\Daniel Pohanka\Desktop\Demo\junitvmwatcher7990731819858012053.properties propsfile=C:\Users\Daniel Pohanka\Desktop\Demo\junit8758484255291732503.properties" />
+
+          <property name="env.NUMBER_OF_PROCESSORS" value="1" />
+
+          <property name="env.APPDATA" value="C:\Users\Daniel Pohanka\AppData\Roaming" />
+
+          <property name="ant.file" value="C:\Users\Daniel Pohanka\Desktop\Demo\build.xml" />
+
+          <property name="env.bamboo_planRepository_1_type" value="gh" />
+
+          <property name="env.bamboo_planRepository_1_branch" value="master" />
+
+          <property name="env.bamboo_planRepository_branchName" value="master" />
+
+          <property name="env.LOGGING_MANAGER" value="-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager" />
+
+          <property name="java.io.tmpdir" value="C:\Users\DANIEL~1\AppData\Local\Temp\" />
+
+          <property name="user.language" value="en" />
+
+          <property name="env.LOGGING_CONFIG" value="-Djava.util.logging.config.file=&quot;C:\Program Files\Bamboo\conf\logging.properties&quot;" />
+
+          <property name="env.SystemDrive" value="C:" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="target" value="1.8" />
+
+          <property name="env._marker" value="&quot;xC:\ProgramFiles\Java\jdk1.8.0_74&quot;" />
+
+          <property name="env.CATALINA_BASE" value="C:\Program Files\Bamboo" />
+
+          <property name="ant.file.type" value="file" />
+
+          <property name="env.JVM_REQUIRED_ARGS" value="-Djava.awt.headless=true -Datlassian.standalone=BAMBOO" />
+
+          <property name="env.bamboo_repository_git_username" value="daniel.pohanka@dynatrace.com" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="source" value="1.8" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="env.JVM_MAXIMUM_MEMORY" value="768m" />
+
+          <property name="env.bamboo_shortPlanName" value="DynaTrace" />
+
+          <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+
+          <property name="env.JAVA_ENDORSED_DIRS" value="C:\Program Files\Bamboo\endorsed" />
+
+          <property name="env.EXECUTABLE" value="C:\Program Files\Bamboo\bin\catalina.bat" />
+
+          <property name="env.LOGONSERVER" value="\\WIN-F99Q070NC6N" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="env.bamboo_planRepository_1_name" value="Demo" />
+
+          <property name="env.bamboo_buildKey" value="DYN-DYN-JOB1" />
+
+          <property name="env.PUBLIC" value="C:\Users\Public" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
+
+          <property name="env.USERDOMAIN" value="WIN-F99Q070NC6N" />
+
+          <property name="env.bamboo_shortJobKey" value="JOB1" />
+
+          <property name="env._EXECJAVA" value="start &quot;Tomcat&quot; &quot;C:\Program Files\Java\jdk1.8.0_74\bin\java.exe&quot;" />
+
+          <property name="env.PROCESSOR_LEVEL" value="6" />
+
+          <property name="env.windir" value="C:\Windows" />
+
+          <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+
+          <property name="env.CLASSPATH" value="C:\Program Files\Bamboo\bin\bootstrap.jar;C:\Program Files\Bamboo\bin\tomcat-juli.jar" />
+
+          <property name="os.name" value="Windows 7" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="env.TMP" value="C:\Users\DANIEL~1\AppData\Local\Temp" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="env.bamboo_capability_system_jdk_JDK_1_8" value="C:\Program Files\Java\jdk1.8.0_74" />
+
+          <property name="env.ProgramData" value="C:\ProgramData" />
+
+          <property name="env.OS" value="Windows_NT" />
+
+          <property name="env.bamboo_planRepository_type" value="gh" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_74\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_74\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;." />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="env.bamboo_shortJobName" value="Default Job" />
+
+          <property name="basedir" value="C:\Users\Daniel Pohanka\Desktop\Demo" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="env.bamboo_repository_720898_previous_revision_number" value="855408b20a9d8c0e40f2323b50c5ae5e379e352d" />
+
+          <property name="env.bamboo_buildResultsUrl" value="http://192.168.23.132:8085/browse/DYN-DYN-JOB1-7" />
+
+          <property name="ant.home" value="C:\Program Files (x86)\apache-ant-1.9.6" />
+
+          <property name="env.bamboo_repository_720898_branch_name" value="master" />
+
+          <property name="env.Path" value="C:\Program Files\Java\jdk1.8.0_74\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\" />
+
+          <property name="env.HOMEDRIVE" value="C:" />
+
+          <property name="env._RUNJDB" value="&quot;C:\Program Files\Java\jdk1.8.0_74\bin\jdb.exe&quot;" />
+
+          <property name="env.bamboo_shortPlanKey" value="DYN" />
+
+          <property name="env.windows_tracing_logfile" value="C:\BVTBin\Tests\installpackage\csilogfile.log" />
+
+          <property name="env.bamboo_capability_system_jdk_JDK" value="C:\Program Files\Java\jdk1.8.0_74" />
+
+          <property name="env.bamboo_repository_revision_number" value="91812d19d1acd3fd832b92b33f43bd4874ce22fa" />
+
+          <property name="env.bamboo_repository_720898_name" value="Demo" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_74\jre\bin" />
+
+          <property name="env.bamboo_dependenciesDisabled" value="false" />
+
+          <property name="env.bamboo_repository_git_repositoryUrl" value="https://github.com/Dynatrace-Daniel-Pohanka/Demo.git" />
+
+          <property name="env.PROCESSOR_REVISION" value="3d04" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="user.variant" value="" />
+
+          <property name="env.bamboo_planName" value="DynaDemo - DynaTrace" />
+
+          <property name="env._PRGRUNMODE" value="false" />
+
+          <property name="env.bamboo_repository_720898_git_username" value="daniel.pohanka@dynatrace.com" />
+
+          <property name="env.ACTION" value="start" />
+
+          <property name="env.JRE_HOME" value="C:\Program Files\Java\jdk1.8.0_74" />
+
+          <property name="env.bamboo_planRepository_1_previousRevision" value="855408b20a9d8c0e40f2323b50c5ae5e379e352d" />
+
+          <property name="env.bamboo_agentId" value="163841" />
+
+          <property name="env.MAINCLASS" value="org.apache.catalina.startup.Bootstrap" />
+
+          <property name="env.bamboo_planRepository_repositoryUrl" value="https://github.com/Dynatrace-Daniel-Pohanka/Demo.git" />
+
+          <property name="ant.project.name" value="DemoApp" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="env.bamboo_planRepository_name" value="Demo" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="env.bamboo_repository_720898_revision_number" value="91812d19d1acd3fd832b92b33f43bd4874ce22fa" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_74\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+
+          <property name="os.version" value="6.1" />
+
+          <property name="user.home" value="C:\Users\Daniel Pohanka" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="env.bamboo_repository_720898_git_repositoryUrl" value="https://github.com/Dynatrace-Daniel-Pohanka/Demo.git" />
+
+          <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+
+          <property name="env.bamboo_planRepository_username" value="daniel.pohanka@dynatrace.com" />
+
+          <property name="env.ProgramW6432" value="C:\Program Files" />
+
+          <property name="env.JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_74" />
+
+          <property name="env._RUNJAVA" value="&quot;C:\Program Files\Java\jdk1.8.0_74\bin\java.exe&quot;" />
+
+          <property name="env.bamboo_planRepository_1_username" value="daniel.pohanka@dynatrace.com" />
+
+          <property name="junit.output.dir" value="junit" />
+
+          <property name="user.dir" value="C:\Users\Daniel Pohanka\bamboo-home\xml-data\build-dir\DYN-DYN-JOB1" />
+
+          <property name="env.FP_NO_HOST_CHECK" value="NO" />
+
+          <property name="env.bamboo_buildResultKey" value="DYN-DYN-JOB1-7" />
+
+          <property name="env._USE_CLASSPATH" value="yes" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+
+          <property name="env.bamboo_planRepository_1_branchName" value="master" />
+
+          <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+
+          <property name="java.vm.version" value="25.74-b02" />
+
+          <property name="env.HOMEPATH" value="\Users\Daniel Pohanka" />
+
+          <property name="env.=::" value="::\" />
+
+          <property name="java.class.path" value="C:\Users\Daniel Pohanka\Desktop\Demo\bin;C:\Users\Daniel Pohanka\Desktop\junit4.10\junit4.10\junit-4.10.jar;C:\Users\Daniel Pohanka\Desktop\junit4.10\junit4.10\junit-4.10-src.jar;C:\Users\Daniel Pohanka\Desktop\junit4.10\junit4.10\junit-dep-4.10.jar;C:\Program Files\Bamboo\bin\bootstrap.jar;C:\Program Files\Bamboo\bin\tomcat-juli.jar;C:\Program Files (x86)\apache-ant-1.9.6\lib\ant-launcher.jar;C:\Program Files (x86)\apache-ant-1.9.6\lib\ant.jar;C:\Program Files (x86)\apache-ant-1.9.6\lib\ant-junit.jar;C:\Program Files (x86)\apache-ant-1.9.6\lib\ant-junit4.jar" />
+
+          <property name="ant.library.dir" value="C:\Program Files (x86)\apache-ant-1.9.6\lib" />
+
+          <property name="ant.file.DemoApp" value="C:\Users\Daniel Pohanka\Desktop\Demo\build.xml" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="env.SESSIONNAME" value="Console" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+
+          <property name="env.ProgramFiles" value="C:\Program Files" />
+
+          <property name="ant.core.lib" value="C:\Program Files (x86)\apache-ant-1.9.6\lib\ant.jar" />
+
+          <property name="ant.file.type.DemoApp" value="file" />
+
+          <property name="env.bamboo_buildTimeStamp" value="2016-03-20T14:28:39.225-05:00" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="env.JVM_MINIMUM_MEMORY" value="256m" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="env.bamboo_capability_system_jdk_JDK_1_8_0_74" value="C:\Program Files\Java\jdk1.8.0_74" />
+
+          <property name="java.runtime.version" value="1.8.0_74-b02" />
+
+          <property name="env.bamboo_repository_branch_name" value="master" />
+
+          <property name="env.ANT_CMD_LINE_ARGS" value=" -f &quot;C:\Users\Daniel Pohanka\Desktop\Demo\build.xml&quot; clean init TestJunit junitreport" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_74\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_74\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_74\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_74\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_74\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_74\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_74\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_74\jre\classes" />
+
+          <property name="env.ComSpec" value="C:\Windows\system32\cmd.exe" />
+
+          <property name="env.bamboo_planRepository_revision" value="91812d19d1acd3fd832b92b33f43bd4874ce22fa" />
+
+          <property name="env.bamboo_build_working_directory" value="C:\Users\Daniel Pohanka\bamboo-home\xml-data\build-dir\DYN-DYN-JOB1" />
+
+          <property name="env.bamboo_planRepository_1_revision" value="91812d19d1acd3fd832b92b33f43bd4874ce22fa" />
+
+          <property name="env.TEMP" value="C:\Users\DANIEL~1\AppData\Local\Temp" />
+
+          <property name="user.country" value="US" />
+
+          <property name="env.ANT_HOME" value="C:\Program Files (x86)\apache-ant-1.9.6" />
+
+          <property name="env.bamboo_ManualBuildTriggerReason_userName" value="dpohanka" />
+
+          <property name="env.bamboo_resultsUrl" value="http://192.168.23.132:8085/browse/DYN-DYN-JOB1-7" />
+
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="env.CATALINA_TMPDIR" value="C:\Program Files\Bamboo\temp" />
+
+          <property name="env.bamboo_working_directory" value="C:\Users\Daniel Pohanka\bamboo-home\xml-data\build-dir\DYN-DYN-JOB1" />
+
+          <property name="env.PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\" />
+
+          <property name="env.CATALINA_HOME" value="C:\Program Files\Bamboo" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+      </properties>
+
+      <error message="DemoPrinter.TestJunit" type="java.lang.ClassNotFoundException">java.lang.ClassNotFoundException: DemoPrinter.TestJunit
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+</error>
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="1" failures="0" hostname="WIN-F99Q070NC6N" id="1" name="TestJunit" package="" skipped="0" tests="1" time="0.0" timestamp="2016-03-19T23:31:55">
       <properties>
           <property name="env.bamboo_planRepository_1_repositoryUrl" value="https://github.com/Dynatrace-Daniel-Pohanka/Demo.git" />
 
