@@ -40,7 +40,7 @@
     <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
     <target name="DemoApp">
         <mkdir dir="${junit.output.dir}"/>
-        <junit fork="yes" printsummary="withOutAndErr">
+        <junit fork="no" printsummary="withOutAndErr">
             <formatter type="xml"/>
             <test name="DemoPrinter.TestJunit" todir="${junit.output.dir}"/>
             <classpath refid="DemoApp.classpath"/>
@@ -48,7 +48,7 @@
     </target>
     <target name="TestJunit">
         <mkdir dir="${junit.output.dir}"/>
-        <junit fork="yes" printsummary="withOutAndErr">
+        <junit fork="no" printsummary="withOutAndErr">
             <formatter type="xml"/>
             <test name="DemoPrinter.TestJunit" todir="${junit.output.dir}"/>
             <classpath refid="DemoApp.classpath"/>
