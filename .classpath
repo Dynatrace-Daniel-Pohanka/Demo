@@ -2,8 +2,6 @@
 <classpath>
 	<classpathentry kind="src" path="src/main/java"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="C:/Users/Daniel Pohanka/Desktop/junit4.10/junit4.10/junit-4.10.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Daniel Pohanka/Desktop/junit4.10/junit4.10/junit-4.10-src.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Daniel Pohanka/Desktop/junit4.10/junit4.10/junit-dep-4.10.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/apache-ant-1.9.6/junit-4.10.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
