@@ -1,3 +1,4 @@
+package DemoPrinter;
 // This class prints the given message on console.
 
 public class MessageUtil {
